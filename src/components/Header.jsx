@@ -7,7 +7,7 @@ const Header = () => {
   return (
     <header>
       <nav>
-        <div className="logo">Rick & Morty WIKI</div>
+      <Link to="/" className="logo">Rick & Morty WIKI</Link>
         <div className="nav-links">
           <Link to="/" className={location.pathname === '/' ? 'active' : ''}>
             Home
