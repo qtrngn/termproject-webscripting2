@@ -1,14 +1,18 @@
-# React + Vite
+# React API Search App – Rick and Morty Explorer
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+This is a 3-page React.js application that lets users search characters from the **Rick and Morty API**, view detailed information about a character, and save favorite characters to a local collection. The app is built using React and follows core principles of user-centric UI/UX design.
 
-Currently, two official plugins are available:
+---
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+## Features
 
-## Expanding the ESLint configuration
+- **Home Page**: Search for Rick and Morty characters and display results dynamically.
+- **Detail Page**: View detailed information for any selected character.
+- **Saved Page**: Save favorite characters to a local list with support for removal and browser persistence via localStorage.
 
-If you are developing a production application, we recommend using TypeScript and enable type-aware lint rules. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+---
+
+## Link to GitHub: (https://github.com/qtrngn/termproject-webscripting2.git)
+
 
 
