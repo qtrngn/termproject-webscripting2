@@ -15,7 +15,7 @@ export default function Favorites() {
   };
 
   return (
-    <div>
+    <div className='container'>
       <h1>Favorites</h1>
       {favorites.length === 0 ? (
         <p>No favorites saved.</p>

@@ -14,9 +14,9 @@ export default function Detail() {
   }, [id]);
 
   return character ? (
-    <div>
+    <div className='container'>
       <h2>{character.name}</h2>
-      <img src={character.img} alt={character.name} />
+      <img src={character.image} alt={character.name} />
       <p>Status: {character.status}</p>
       <p>Species: {character.species}</p>
       <p>Location: {character.location.name}</p>

@@ -26,8 +26,9 @@ export default function Home() {
   }, []);
   
   return (
-    <div>
-      <h1>Rick and Morty Wiki</h1>
+    <div className='container'>
+      <h1>Rick and Morty</h1>
+      <div className='search-bar'>
       <input
         type="text"
         value={query}
@@ -35,6 +36,7 @@ export default function Home() {
         placeholder='Search characters...'
       />
       <button onClick={() => fetchCharacters(query)}>Search</button>
+      </div>
       {error && <p>{error}</p>}
       <div className='character-grid'>
         {characters && characters.map (char => (
